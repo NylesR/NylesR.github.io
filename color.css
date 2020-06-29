@@ -4,6 +4,7 @@ h1 {
     color: cornflowerblue;
 }
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
     background-color: rgb(205, 248, 255);
 }
