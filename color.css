@@ -7,6 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
     background-color: rgb(254, 255, 191);
+    margin: auto;
     
 }
 #quote-of-the-day {
@@ -33,4 +34,12 @@ a{
 }
 a:hover{
     color: rgba(165,42,42,0.5);
+}
+.drawing{   
+    padding:20px;
+    margin:auto;
+    width: 20%;
+    border-color: brown;
+    border-width: 1%;
+    border-style: solid;
 }
