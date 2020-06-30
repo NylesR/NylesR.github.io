@@ -3,28 +3,37 @@
     <head>
         <link rel="stylesheet" type="text/css" href="color.css">
         <title>nyles dot net</title>
+        <link rel="shortcut icon" href="https://previews.dropbox.com/p/thumb/AA2rWZW6AqUNiRvkbSHhrY3-iLwAikCloZYqoeN8CtsC_9sB7B6nSSdphWZpuSMujeJSddlc0IDCRt1KOp14UeHKwXumTn24pUW-dZFczhe4EjsS8WUFmzMvLUEXzF9DB8L-3i5bZRRJVm688P8NyY1uQZ4GcIg6pdG1yxNcs1Lac4wsSzTAqGmV9JOmIOmbFe5Yos4gB4X44s-kZub8Pdy2z0hNmXA_RhAU_uUulBrtL8M4LyCzCFU5J8-OQwP5AwmoL-4xSZu93ypDSJ1u-utvPgajXJ6ul6cTHpiIuJ_w8mx0i2Z5hadDA3B0C0kP69K71aw8fUI0FCXYg3LoHaDufzkl-5Kug8EpvUKHqBeNTA/p.png?fv_content=true&size_mode=5">
     </head>
     <body>
-        <h1>NylesDotNet</h1>
-        <div>
-            <img class="picture" src="https://previews.dropbox.com/p/thumb/AA2rWZW6AqUNiRvkbSHhrY3-iLwAikCloZYqoeN8CtsC_9sB7B6nSSdphWZpuSMujeJSddlc0IDCRt1KOp14UeHKwXumTn24pUW-dZFczhe4EjsS8WUFmzMvLUEXzF9DB8L-3i5bZRRJVm688P8NyY1uQZ4GcIg6pdG1yxNcs1Lac4wsSzTAqGmV9JOmIOmbFe5Yos4gB4X44s-kZub8Pdy2z0hNmXA_RhAU_uUulBrtL8M4LyCzCFU5J8-OQwP5AwmoL-4xSZu93ypDSJ1u-utvPgajXJ6ul6cTHpiIuJ_w8mx0i2Z5hadDA3B0C0kP69K71aw8fUI0FCXYg3LoHaDufzkl-5Kug8EpvUKHqBeNTA/p.png?fv_content=true&size_mode=5" alt="You're seeing this because the image failed to load. Well there is no image to load at the moment.">
-        </div>
+        <div class="top-of-page">
+            <div class="head-of-page">
+                <div class="head-picture">
+                    <img class="picture" src="https://previews.dropbox.com/p/thumb/AA2rWZW6AqUNiRvkbSHhrY3-iLwAikCloZYqoeN8CtsC_9sB7B6nSSdphWZpuSMujeJSddlc0IDCRt1KOp14UeHKwXumTn24pUW-dZFczhe4EjsS8WUFmzMvLUEXzF9DB8L-3i5bZRRJVm688P8NyY1uQZ4GcIg6pdG1yxNcs1Lac4wsSzTAqGmV9JOmIOmbFe5Yos4gB4X44s-kZub8Pdy2z0hNmXA_RhAU_uUulBrtL8M4LyCzCFU5J8-OQwP5AwmoL-4xSZu93ypDSJ1u-utvPgajXJ6ul6cTHpiIuJ_w8mx0i2Z5hadDA3B0C0kP69K71aw8fUI0FCXYg3LoHaDufzkl-5Kug8EpvUKHqBeNTA/p.png?fv_content=true&size_mode=5" alt="2D Drawing of me, a black kid with a large afro wearing a red sweater.">
+                </div>
+                <h1>NylesDotNet</h1>
+            </div>
+            <h3 id ="quote-of-the-day">"Was the color orange named after the fruit or was the fruit named after the color?"</h3>
+        </div>   
+       
+        <hr>
+        <p><h3>nyles.net because <a href="nyles.com.html">nyles.com</a> was taken.</h3></p>
         <div class="headers">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Things</a></li>
-                <li><a href="#">Art</a></li>
-                <li><a href="#">Music</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="/work-in-progress.html">Home</a></li>
+                <li><a href="/work-in-progress.html">Things</a></li>
+                <li><a href="/work-in-progress.html">Art</a></li>
+                <li><a href="/work-in-progress.html">Music</a></li>
+                <li><a href="/work-in-progress.html">About</a></li>
+                <li><a href="https://twitter.com/nylescs">Twitter</a></li>
             <ul>
         </div>
-        <p><h3>nyles.net because <a href="nyles.com.html">nyles.com</a> was taken.</h3></p>
 <!-- Paragraph that asks the user if they know me asks them to fill in yes or no and then their name-->
         <p>
             Do you know me personally?
             <form action="/submit-your-name">
                 <label>
-                    <input value="Yes" type="radio" name="Know">
+                    <input value="Yes" type="radio" name="Know" checked>
                     Yes
                 </label>
             </br>
@@ -33,7 +42,7 @@
                     No
                 </label>
             </br>
-                <input type="text" required placeholder="Type your name here">
+                <input id ="long-box" type="text" required placeholder="Don't hit submit unless you like errors">
             <button type="submit">Submit </button>
             </form>
         </p>

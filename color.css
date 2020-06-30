@@ -6,15 +6,31 @@ h1 {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
-    background-color: rgb(205, 248, 255);
+    background-color: rgb(254, 255, 191);
+    
+}
+#quote-of-the-day {
+    position:relative;
+    text-align:center;  
+    color:black;
+}
+#long-box {
+    width: 200px;
 }
 .picture{
-    width: 200px;
+    padding: 1px;
+    width: 3%;
     border-color: brown;
-    border-width: 7px;
+    border-width: 1%;
     border-style: solid;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 .headers{
-    color: blue;
+    color: rgb(99, 0, 0);
+}
+a{
+    color: #d83636;
+}
+a:hover{
+    color: rgba(165,42,42,0.5);
 }
