@@ -1,0 +1,100 @@
+h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #0d4a6f;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    width: 35%;
+    margin-bottom: 1%;  
+    border-radius: 0%;
+    border-color:rgb(151, 162, 182);
+    border-width: 0%;
+    border-style: solid;
+    position: relative;
+}
+h4{
+    font-size: 40;
+}
+#quote {
+    position:relative;
+    text-align:center;  
+    color: #FFFFFF;
+    background-color: #0D4A6F;
+    margin: auto;
+    padding: 1%;
+    width: 35%;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    background-color: rgb(236, 235, 182);
+}
+p{
+    width: 60%;
+    background-color: beige;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.picture{
+    padding: 0%;
+    width: 3%;
+    border-color: #0a3550;
+    border-width: 1%;
+    border-style: solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    z-index: 1;
+}
+.headers{
+    background-color: #0D4A6F;
+    padding: 1%;
+    width: 40%;
+    margin:auto;
+    margin-top: 1%;
+    text-align: center;
+}
+nav ul{
+    margin: auto;
+}
+nav li{
+    display: inline;
+    margin: auto;
+    
+}
+nav li a {
+    color:white;
+    padding: 2%;
+}
+#nyles-com{
+    color: #d83636;
+}
+#nyles-com:hover {
+    color: white;
+}
+
+.drawing{   
+    padding:20px;
+    margin:auto;
+    width: 20%;
+    border-color: brown;
+    border-width: 1%;
+    border-style: solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    transform: scale(2);
+    color: cyan;
+}
+
+footer {
+    position: absolute;
+    bottom: 1%;
+}
