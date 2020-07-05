@@ -4,36 +4,30 @@ h1 {
     background-color: rgba(141, 141, 211, 0.6);
     padding-top: 1%;
     padding-bottom: 1%;
-    margin: auto;
+    margin-right: 30%;
+    margin-left: 30%;
     border-radius: 0%;
     border-color:rgb(1, 61, 172);
     border-width: 10%;
     border-style: solid; 
-    width: 30%;
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
-    background-color: #FFFFFF;
+    background-color: rgb(254, 255, 191);
     
 }
 #quote-of-the-day {
-    position: relative;
-    text-align: center;  
-    color: rgba(0,0,0,0.7);
-    background:
-    linear-gradient(
-      53deg,
-      #ccfffc,
-      #ffcccf
-    );
-    margin:auto;
+    position:relative;
+    text-align:center;  
+    color:rgba(0,0,0,0.7);
+    background-color: orange;
+    margin-left:25%;
+    margin-right:25%;
     padding: 3%;
-    width: 35%;
-
 }
 #long-box {
-    width: 250px;
+    width: 200px;
 }
 #head-picture{
     padding: 1px;
@@ -42,7 +36,7 @@ body {
     border-width: 1%;
     border-style: solid;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     left: 39%;
     top: 3.2%;
 }
@@ -50,7 +44,7 @@ body {
     color: rgb(99, 0, 0);
 }
 #navbar{
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 22%;
     left: 32%;
