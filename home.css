@@ -27,7 +27,7 @@ h4{
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;
+    color: #0d196f;
     background-color: rgb(236, 235, 182);
 }
 p{
@@ -36,6 +36,7 @@ p{
     padding: 1%;
     margin: auto;
     margin-bottom: 2%;
+    font-size: 15px;
 }
 .picture{
     padding: 0%;
@@ -59,6 +60,7 @@ p{
 }
 nav ul{
     margin: auto;
+    list-style-type: none;
 }
 nav li{
     display: inline;
@@ -70,10 +72,10 @@ nav li a {
     padding: 2%;
 }
 #nyles-com{
-    color: #d83636;
+    color: #b35015;
 }
 #nyles-com:hover {
-    color: white;
+    color: #1a97e1;
 }
 
 .drawing{   
@@ -86,7 +88,7 @@ nav li a {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 a:hover{

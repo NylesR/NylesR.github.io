@@ -15,7 +15,7 @@ h1 {
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;
+    color: #1578b3;
     background-color: rgb(236, 235, 182);
 }
 
@@ -45,7 +45,13 @@ li {
     display: inline;
     padding: 2%;
 }
+
+a {
+    text-decoration: none;
+}
+
 a:hover{
-    color: aqua;
+    transform: scale(2);
+    color: cyan;
 }
 
