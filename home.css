@@ -77,6 +77,17 @@ nav li a {
 #nyles-com:hover {
     color: #1a97e1;
 }
+.bio{
+    text-align: center;
+    background-color: beige;        
+    margin: auto;
+    margin-bottom: 2%;
+    width: 65%;
+}
+
+ul{
+    list-style-type: none;
+}
 
 .drawing{   
     padding:20px;
