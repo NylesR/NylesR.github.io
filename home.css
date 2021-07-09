@@ -30,6 +30,11 @@ body {
     color: #0d196f;
     background-color: rgb(236, 235, 182);
 }
+
+ul{
+    list-style-type: none;
+}
+
 p{
     width: 60%;
     background-color: beige;
@@ -37,6 +42,7 @@ p{
     margin: auto;
     margin-bottom: 2%;
     font-size: 15px;
+    text-align:center;
 }
 .picture{
     padding: 0%;
@@ -83,10 +89,6 @@ nav li a {
     margin: auto;
     margin-bottom: 2%;
     width: 65%;
-}
-
-ul{
-    list-style-type: none;
 }
 
 .drawing{   
