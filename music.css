@@ -77,14 +77,12 @@ nav li a {
     color:white;
     padding: 2%;
 }
-
 #nyles-com{
     color: #b35015;
 }
 #nyles-com:hover {
     color: #1a97e1;
 }
-
 .bio{
     text-align: center;
     background-color: beige;        
