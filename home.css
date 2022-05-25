@@ -23,7 +23,7 @@ h4{
     margin-bottom: 1%;
     padding: 1px;
     width: 30%;
-    letter-spacing:-1px;
+    letter-spacing:2px;
 }
 
 body {
@@ -141,4 +141,5 @@ footer {
 .footer-content p{
     background-color:transparent    ;
     text-align: left;
+    position: absolute;
 }
