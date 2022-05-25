@@ -6,12 +6,10 @@ h1 {
     padding-bottom: 1%;
     margin: auto;
     width: 35%;
-    margin-bottom: 1%;  
+    margin-bottom: 1px;  
     border-radius: 0%;
     border-color:rgb(151, 162, 182);
-    border-width: 0%;
-    border-style: solid;
-    position: relative;
+    position: top;
 }
 h4{
     font-size: 40;
@@ -22,9 +20,12 @@ h4{
     color: #FFFFFF;
     background-color: #0D4A6F;
     margin: auto;
-    padding: 1%;
-    width: 35%;
+    margin-bottom: 1%;
+    padding: 1px;
+    width: 30%;
+    letter-spacing:-1px;
 }
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #0d196f;
@@ -43,6 +44,8 @@ a:hover{
 
 ul{
     list-style-type: none;
+    margin: 3%;
+    padding: 0;
 }
 
 p{
@@ -71,7 +74,8 @@ p{
     padding: 1%;
     width: 40%;
     margin:auto;
-    margin-top: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
     text-align: center;
 }
 nav ul{
@@ -85,20 +89,24 @@ nav li{
 }
 #nav-bar li a {
     color:white;
-    padding: 2%;
+    padding: 3%;
 }
 
 #nyles-com:hover {
     /* color: #1a97e1; */
-    color:black;
+    color:darkblue;
+}
+
+#nyles-com{
+    text-align: right;
 }
 
 .bio{
     text-align: center;
     background-color: beige;        
     margin: auto;
-    margin-bottom: 2%;
-    width: 65%;
+    margin-bottom: 2;
+    width: 25%;
 }
 
 .drawing{   
@@ -118,15 +126,19 @@ footer {
     color:black;
 }
 
-#test-box{
-    
-}
-
 #nav-bar a:hover{
     font-size: 175%;
     color: cyan;
 }
+#nav-bar a:active{
+    font-size: 175%;
+    color: darkblue;
+}
 
-.footer-content{
-    background-color: transparent;
+
+/* FOOTER */
+
+.footer-content p{
+    background-color:transparent    ;
+    text-align: left;
 }
