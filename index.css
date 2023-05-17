@@ -1,0 +1,156 @@
+
+* {
+    color:#2B2118;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    color: #2B2118;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0.5%;
+}
+
+header{
+    background-color: #7a638d;
+    color: #F9FAF8;
+    display: flex;
+    padding: 3.5%; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-text{
+    color:#f5f0f0;
+    text-align: center;
+}
+
+.name{
+    color: #f5f0f0;
+    margin-left: 10.5%;
+    text-align: center;
+}
+
+header nav{
+    width: 30%;
+}
+
+.nav-links{
+    list-style: none;
+    color: inherit;
+    text-align: right; 
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav-links li{
+    display: inline-block;
+    color:#f5f0f0;
+    text-align: center;
+}
+
+.introduction{
+    color:#e9e9e9;
+    padding: 2%;
+    width: 100%;
+    background-color: #768d63;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.intro-title{
+    color: inherit;
+    margin: 1%;
+}
+
+.intro-text{
+    color: inherit;
+    width: 50%;
+}
+
+.genetic-adaptation-details, .cultural-adaptation-details, .cultural-genetic-comparison {
+    background-color: #f5f5f5;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.adaptation-header {
+    margin-bottom: 1%;
+}
+
+.genetic-adaptation-details p, .cultural-adaptation-details p, .cultural-genetic-comparison p {
+    margin-bottom: 1%;
+}
+
+.genetic-adaptation-details{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.genetic-adaptation-details .adaptation-header{
+    text-align: center;
+}
+
+.genetic-adaptation-intro{
+    font-style: italic;
+    text-align: center;
+    font-weight: 510;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.genetic-adaptation-examples{
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.genetic-picture, .cultural-picture{
+    max-width: 50%;
+    height: auto;
+}
+
+.cultural-adaptation-details{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cultural-adaptation-examples{
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.quote-box{
+    font-size: 36px;
+    background-color: #FF785A;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding: 2% 25%;
+}
+
+.quote{
+    padding: 5% 5% 0 10%;
+    font-size: 36px;
+    color: #e9e9e9;
+    font-style: italic;
+    display: inline-block;
+}
+
+.darwin{
+    font-size: 24px;
+    font-weight: 650;
+    text-align: right;
+    display: inline-block;
+    padding: 0px 60px 0px 600px;
+}
