@@ -97,7 +97,7 @@ header nav{
 }
 
 .genetic-adaptation-details .adaptation-header{
-    text-align: center;
+    text-align: left;
 }
 
 .genetic-adaptation-intro{
@@ -116,6 +116,18 @@ header nav{
 .genetic-picture, .cultural-picture{
     max-width: 50%;
     height: auto;
+}
+
+.cultural-adaptation-details .adaptation-header{
+    text-align: center;
+}
+
+.cultural-adaptation-intro{
+    font-style: italic;
+    text-align: center;
+    font-weight: 510;
+    margin-right: 20%;
+    width: 55%;
 }
 
 .cultural-adaptation-details{
