@@ -1,9 +1,10 @@
 
 * {
+    background-color: #EC9A29;
     color:#2B2118;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0.25%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -12,10 +13,11 @@ p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 0.5%;
+    background-color:inherit;
 }
 
 header{
-    background-color: #7a638d;
+    background-color: #4D2D52;
     color: #F9FAF8;
     display: flex;
     padding: 3.5%; 
@@ -26,16 +28,19 @@ header{
 .header-text{
     color:#f5f0f0;
     text-align: center;
+    background-color:inherit;
 }
 
 .name{
     color: #f5f0f0;
     margin-left: 10.5%;
     text-align: center;
+    background-color:inherit;
 }
 
 header nav{
     width: 30%;
+    background-color:inherit;
 }
 
 .nav-links{
@@ -45,11 +50,20 @@ header nav{
     display: flex;
     justify-content: space-between;
     margin: auto;
+    background-color:inherit;
 }
+
 .nav-links li{
+    background-color:inherit;
+}
+
+.nav-links li a{
+    padding: 0;
+    text-decoration: none;
     display: inline-block;
-    color:#f5f0f0;
+    color:#e0cff5;
     text-align: center;
+    background-color:inherit;
 }
 
 .introduction{
@@ -64,8 +78,9 @@ header nav{
 }
 
 .intro-title{
-    color: inherit;
     margin: 1%;
+    color: inherit;
+    background-color:inherit;
 }
 
 .intro-text{
@@ -73,19 +88,24 @@ header nav{
     width: 50%;
 }
 
-.genetic-adaptation, .cultural-adaptation, .cultural-genetic-comparison {
+.genetic-adaptation, .cultural-adaptation{
     background-color: #f5f5f5;
     padding: 2%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 .adaptation-header {
     margin-bottom: 1%;
+    background-color:inherit;
 }
 
-.genetic-adaptation p, .cultural-adaptation p, .cultural-genetic-comparison p {
+.genetic-adaptation h3, .cultural-adaptation h3{
+    margin-bottom: 1%;
+    background-color:inherit;
+}
+
+.genetic-adaptation p, .cultural-adaptation p{
     margin-bottom: 1%;
 }
 
@@ -105,6 +125,7 @@ header nav{
     width: 50%;
     margin-bottom: 1%;
     display: inline-block;
+    background-color:inherit;
 }
 
 .genetic-picture, .cultural-picture{
@@ -116,6 +137,7 @@ header nav{
 .cultural-adaptation .adaptation-header{
     display: block;
     text-align: left;
+    
 }
 
 .cultural-adaptation-intro{
@@ -129,11 +151,12 @@ header nav{
 .cultural-adaptation-examples{
     width: 50%;
     margin-bottom: 1%;
+    background-color:inherit;
 }
 
 .quote-box{
     font-size: 36px;
-    background-color: #FF785A;
+    background-color: #A8201A;
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
@@ -149,8 +172,9 @@ header nav{
 }
 
 .darwin{
+    color: #e9e9e9;
     font-size: 24px;
-    font-weight: 650;
+    font-weight: 550;
     text-align: right;
     display: inline-block;
     padding: 0px 60px 0px 600px;
