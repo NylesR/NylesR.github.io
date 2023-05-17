@@ -73,7 +73,7 @@ header nav{
     width: 50%;
 }
 
-.genetic-adaptation-details, .cultural-adaptation-details, .cultural-genetic-comparison {
+.genetic-adaptation, .cultural-adaptation, .cultural-genetic-comparison {
     background-color: #f5f5f5;
     padding: 2%;
     border-radius: 10px;
@@ -85,18 +85,11 @@ header nav{
     margin-bottom: 1%;
 }
 
-.genetic-adaptation-details p, .cultural-adaptation-details p, .cultural-genetic-comparison p {
+.genetic-adaptation p, .cultural-adaptation p, .cultural-genetic-comparison p {
     margin-bottom: 1%;
 }
 
-.genetic-adaptation-details{
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.genetic-adaptation-details .adaptation-header{
+.genetic-adaptation .adaptation-header{
     text-align: left;
 }
 
@@ -111,30 +104,26 @@ header nav{
 .genetic-adaptation-examples{
     width: 50%;
     margin-bottom: 1%;
+    display: inline-block;
 }
 
 .genetic-picture, .cultural-picture{
     max-width: 50%;
-    height: auto;
+    height: auto; 
+    display: inline-block;
 }
 
-.cultural-adaptation-details .adaptation-header{
-    text-align: center;
+.cultural-adaptation .adaptation-header{
+    display: block;
+    text-align: left;
 }
 
 .cultural-adaptation-intro{
     font-style: italic;
     text-align: center;
     font-weight: 510;
-    margin-right: 20%;
-    width: 55%;
-}
-
-.cultural-adaptation-details{
-    display:flex;
-    align-items: flex-end;
-    flex-direction: column;
-    text-align: left;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .cultural-adaptation-examples{
